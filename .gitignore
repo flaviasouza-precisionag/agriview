@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.key
+credentials*.json
+service-account*.json
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Generated outputs
+outputs/*
+!outputs/README.md
+
+# Production data
+data/*
+!data/README.md
+
+# Geospatial sidecar and generated files
+*.gpkg
+*.geojson
+*.gdb/
+*.tif
+*.tiff
+*.vrt
+*.parquet
+*.feather
+
+# Street View imagery
+*.jpg
+*.jpeg
+*.webp

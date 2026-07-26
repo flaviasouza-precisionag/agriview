@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use or discuss this software, please cite it as below."
+title: "AgriView: Agricultural Imagery Platform"
+type: software
+authors:
+  - family-names: "Pereira de Souza"
+    given-names: "Flavia Luize"
+year: 2026
+license: "LicenseRef-AgriView-Portfolio-Evaluation-1.0"
+abstract: "A geospatial pipeline for identifying, validating, and retrieving Google Street View imagery near agricultural fields."

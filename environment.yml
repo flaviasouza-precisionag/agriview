@@ -1,0 +1,10 @@
+name: agriview
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - geopandas>=0.14
+  - pandas>=2.0
+  - shapely>=2.0
+  - requests>=2.31
+  - pyogrio>=0.7
